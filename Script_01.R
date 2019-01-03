@@ -1,7 +1,7 @@
 ### Simple R function
 
-square <- function(number){
+power_n <- function(number, n = 2){
 
-	return(number^2)
+	return(number^n)
 
 }
